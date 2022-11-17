@@ -1,0 +1,38 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+select {
+  width: 200px !important;
+}
+
+.select-shift-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin: 10px;
+}
+
+.handontable-container {
+  margin: auto;
+}
+
+/* hand on table customcustom */
+table.htCore td.staffName {
+  background: #cff5e7;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+table.htCore td.hoverHightlight:hover {
+  background: #e7f6f2;
+}
+
+.handsontable table thead th {
+  background: white;
+  font-weight: bold;
+}
+
+.shift-changed {
+  color: green;
+}
